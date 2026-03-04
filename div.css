@@ -1,0 +1,36 @@
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+div:nth-of-type(2n){
+
+    background-color: #f7bd67;
+}
+
+div :nth-of-type(3n){
+    border-color: #edd02b;
+}
+#first{
+    transform:rotate(45deg);
+}
+#second{
+    transform: scaleY(0.5 ,2);
+}
+
+#third{
+    transform: translate(100px,100px);
+}
+#fourth{
+    transform: skew(30deg);
+}
+
+#five{
+    transform: rotate(30deg) translateX(150px);
+}
